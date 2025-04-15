@@ -70,7 +70,14 @@ section .hero {
 .hero-container {
     padding-top: 100px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: 100px;
+}
+
+.hero .hero-container button{
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
 }
 
