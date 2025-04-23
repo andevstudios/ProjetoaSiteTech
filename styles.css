@@ -26,7 +26,15 @@ header {
     width: 100%;
 }
 
+.hero-container {
+    padding-top: 100px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+
 header .container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,6 +44,10 @@ header .container {
 header .logo{
     display: inline-block;
     font-size: 25px;
+    height: 100%;
+}
+header .logo img {
+    width: 50px;
 }
 
 header nav {
@@ -65,13 +77,6 @@ section img {
 
 section .hero {
     position: relative;
-}
-
-.hero-container {
-    padding-top: 100px;
-    position: absolute;
-    top: 100px;
-    left: 100px;
 }
 
 .hero .hero-container button{
