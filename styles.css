@@ -27,14 +27,11 @@ header {
 }
 
 .hero-container {
-    padding-top: 100px;
-    top: 100px;
-    left: 100px;
-    position: absolute;
+    padding: 70px;
+    background-color: aquamarine;
 }
 
 header .container {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,10 +41,7 @@ header .container {
 header .logo{
     display: inline-block;
     font-size: 25px;
-    height: 100%;
-}
-header .logo img {
-    width: 50px;
+    
 }
 
 header nav {
@@ -73,10 +67,6 @@ header nav ul li:last-of-type a{
 section img {
     width: 100%;
     height: auto;
-}
-
-section .hero {
-    position: relative;
 }
 
 .hero .hero-container button{
