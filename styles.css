@@ -26,9 +26,15 @@ header {
     width: 100%;
 }
 
-.hero-container {
+.hero .hero-container {
     padding: 70px;
-    background-color: aquamarine;
+    background-color: rgb(190, 204, 230);
+    text-align: center;
+}
+
+.hero .hero-container h1 {
+    text-transform: uppercase;
+    font-size: 70px;
 }
 
 header .container {
@@ -41,7 +47,6 @@ header .container {
 header .logo{
     display: inline-block;
     font-size: 25px;
-    
 }
 
 header nav {
@@ -64,15 +69,11 @@ header nav ul li:last-of-type a{
     margin-right: 0;
 }
 
-section img {
-    width: 100%;
-    height: auto;
-}
-
 .hero .hero-container button{
-    border-radius: 25px;
-    padding: 10px;
-    background-color: white;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: rgb(75, 156, 248);
     text-transform: uppercase;
+    border: none;
 }
 
