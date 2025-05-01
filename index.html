@@ -1,32 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="imagens/melancia.webp" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8906f63711.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
+<body class="smooth-scroll">
+    <!-- Navbar -->
+    <nav class="navbar">
         <div class="container">
-            <section class="logo"><Strong>Meu Portifólio</Strong></section>
-            <nav>
-                <ul>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
+            <div class="navbar-content">
+                <h1 class="navbar-title">Meu Portifólio</h1>
+                <div class="navbar-links">
+                    <a href="#home" class="nav-link">Início</a>
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                    <a href="#projetos" class="nav-link">Projetos</a>
+                    <a href="#habilidades" class="nav-link">Habilidades</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                </div>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <section class="hero">
-        <div class="hero-container">
-            <h1>José André</h1>
-            <p>Conheça meu portifólio agora!</p>
-            <button>Sobre mim</button>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">André Neto</h1>
+            <p class="hero-subtitle">Desenvolvedor sempre em evolução.</p>
+            <a href="#sobre" class="hero-button">Conheça agora</a>
         </div>
     </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <img src="https://via.placeholder.com/300" alt="Foto de Perfil" class="profile-img">
+                </div>
+                <div class="sobre-text">
+                    <p class="sobre-paragraph">Olá! Meu nome é André, e sou um desenvolvedor iniciante, apaixonado por tecnologia e programação. Estou começando minha jornada na área de desenvolvimento, com foco em criar aplicações web e softwares</p>
+                    <p class="sobre-paragraph">Atualmente, estou aprendendo Java e PHP e trabalhando em projetos práticos para aprimorar minhas habilidades. Meu objetivo é contribuir para projetos inovadores e crescer como profissional na área de tecnologia.</p>
+                    <p class="sobre-paragraph">Além disso, sou o programador de um jogo chamado Let´s Go Froggie.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="section section-gray">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projetos-grid">
+                <!-- Projeto 1 -->
+                <div class="projeto-card">
+                    <img src="images/froggie.png" alt="Projeto-Froggie" class="projeto-img">
+                    <div class="projeto-content">
+                        <h3 class="projeto-title">Let´s Go Froggie</h3>
+                        <p class="projeto-description">Um jogo de plataforma desenvolvido no software Game Maker Studio 2, utilizando GML(Game Maker Language).</p>
+                        <a href="https://gx.games/pt-br/games/jmsv1f/let-s-go-froggie-beta/" class="projeto-link">Ver Projeto</a>
+                    </div>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="projeto-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Projeto 2" class="projeto-img">
+                    <div class="projeto-content">
+                        <h3 class="projeto-title">Book House</h3>
+                        <p class="projeto-description">Uma web aplicação feita utilizando .</p>
+                        <a href="#" class="projeto-link">Ver Projeto</a>
+                    </div>
+                </div>
+                <!-- Projeto 3 -->
+                <div class="projeto-card">
+                    <img src="https://via.placeholder.com/400x200" alt="Projeto 3" class="projeto-img">
+                    <div class="projeto-content">
+                        <h3 class="projeto-title">Projeto 3</h3>
+                        <p class="projeto-description">Um script Python para automatizar [descreva o propósito].</p>
+                        <a href="#" class="projeto-link">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Section -->
+    <section id="habilidades" class="section">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <div class="habilidades-grid">
+                <div class="habilidade-item">
+                    <div class="habilidade-icon">
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <p class="habilidade-name">HTML & CSS</p>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <p class="habilidade-name">JavaScript</p>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-icon">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <p class="habilidade-name">PHP</p>
+                </div>
+                <div class="habilidade-item">
+                    <div class="habilidade-icon">
+                        <i class="fa-brands fa-git"></i>
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <p class="habilidade-name">Git & GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section section-gray">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-content">
+                <p class="contato-text">Estou aberto a oportunidades e colaborações. Sinta-se à vontade para me contatar!</p>
+                <div class="contato-links">
+                    <a href="https://mail.google.com/mail/u/2/#inbox" class="contato-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/andre-neto-708278358/" target="_blank" class="contato-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/andevstudios" target="_blank" class="contato-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 André Neto. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
